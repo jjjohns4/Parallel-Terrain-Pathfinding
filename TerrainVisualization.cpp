@@ -78,7 +78,7 @@ int main() {
     cv::imshow("Georeferenced Aspect", normImage);
     cv::waitKey(0);
 
-    cv::imwrite("aspect.png", normImage);
+    cv::imwrite("terrain.png", normImage);
 
     GDALClose(poDataset);
     return 0;

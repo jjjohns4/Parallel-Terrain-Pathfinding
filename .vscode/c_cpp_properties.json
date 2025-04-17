@@ -5,12 +5,13 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/homebrew/include",
-                "/opt/homebrew/include/opencv4"
+                "/opt/homebrew/include/opencv4",
+                "/opt/homebrew/opt/libomp/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
             "cStandard": "c11",
-            "cppStandard": "c++11",
+            "cppStandard": "c++17",
             "intelliSenseMode": "macos-gcc-x64"
         }
     ],
